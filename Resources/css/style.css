@@ -1,0 +1,161 @@
+*{
+  font-family: Helvetica;
+  color: seashell;
+  opacity: .9;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  /* height: 3000px; */
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  margin: auto;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  width: 80%;
+  border-bottom: 1px solid seashell;
+}
+
+.menu ul{
+  white-space: nowrap;
+  margin-right: 30px;
+}
+
+.menu li{
+  display: inline-block;
+  padding: 15px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+.header {
+  width: 1200px;
+  height: 700px;
+  top: 100px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  background-image: url('../images/img-mission-background.jpg');
+  margin: auto;
+}
+
+.info {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.tea-month {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+  top: 120px;
+}
+
+.tea-month h4 {
+  font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  max-width: 300px;
+  min-height: 200px;
+}
+
+.cards img{
+  max-width: 100%;
+}
+
+.location {
+  background-image: url('../images/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: auto;
+  margin: auto;
+  padding: 30px;
+  top: 130px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.normals {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  opacity: 1;
+}
+
+.normals h3 {
+  font-size: 40px;
+  opacity: 1;
+}
+
+.normals p {
+  line-height: 2;
+  font-size: 22px;
+}
+
+.normal{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  cursor: pointer;
+  
+}
+
+.normal:hover {
+  border: 3px solid red;
+  opacity: 1;
+}
+
+.tea-cozy {
+  position: relative;
+  top: 110px;
+  margin-bottom: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+footer{
+  text-align: left;
+  padding: 20px;
+  position: relative;
+  top: 110px;
+}
